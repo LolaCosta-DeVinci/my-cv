@@ -1,0 +1,29 @@
+
+body {
+    background-color: rgba(235, 220, 199, 1);
+    color: #805741;
+}
+
+#name {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 0.2em;
+    font-family: 'Niconne';
+}
+
+.intro__icon--linkedin {
+    width: 5em;
+}
+.intro__icon--twitter {
+    width: 2em;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+.intro__icon {
+    margin-right: 0.4em;
+}
