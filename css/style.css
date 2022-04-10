@@ -4,8 +4,11 @@ body {
     color: #805741;
 }
 
-#intro {
+#wrap {
     text-align: center;
+}
+
+#intro {
     border-bottom: 1px solid ;
     width: 80vw;
     margin: 0 auto 1.5em;
@@ -19,7 +22,7 @@ body {
     font-family: 'Niconne', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h2 {
+#intro_subtitle {
     font-size: 1.3em;
     font-style: italic;
 }
@@ -38,7 +41,7 @@ h2 {
 
 .intro__icon {
     margin: 0.8em 1em 0.8em 0;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .intro__icon:hover {
@@ -48,6 +51,37 @@ h2 {
 #content {
     display: flex;
     justify-content: space-around;
+}
+
+#content .section {
+    height: auto;
+    width: 30%;
+    border: 1px solid;
+    border-radius: 3em;
+}
+
+.content__title {
+    font-size: 1.7em;
+    font-style: italic;
+    margin: 0.5em auto;
+}
+
+.information {
+    height: 10%;
+}
+
+.information ul {
+    margin: 0.8em auto;
+}
+
+a {
+    color: #805741;
+    transition: font-size 0.5s;
+}
+
+a:hover {
+    font-weight: bolder;
+    font-size: 1.2em;
 }
 
 
