@@ -4,26 +4,56 @@ body {
     color: #805741;
 }
 
-#name {
-    font-size: 50px;
+#intro {
     text-align: center;
-    margin-top: 5em;
+    border-bottom: 1px solid ;
+    width: 80vw;
+    margin: 0 auto 1.5em;
+    background-color: rgba(235, 220, 199, 0.8);
+}
+
+#intro_name {
+    font-size: 60px;
+    margin-top: 1em;
     margin-bottom: 0.2em;
-    font-family: 'Niconne';
+    font-family: 'Niconne', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-style: italic;
 }
 
 .intro__icon--linkedin {
-    width: 5em;
+    width: 2.5em;
 }
 .intro__icon--twitter {
     width: 2em;
 }
 
-header ul {
+#socials {
     display: flex;
     justify-content: center;
 }
 
 .intro__icon {
-    margin-right: 0.4em;
+    margin: 0.8em 1em 0.8em 0;
+    transition: 0.5s;
+}
+
+.intro__icon:hover {
+    transform: scale(1.5);
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+footer {
+    display: none;
 }
