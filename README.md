@@ -1,1 +1,3 @@
-# my-cv
+# Voici mon CV ! En cours de création...
+
+Bonne lecture :)
