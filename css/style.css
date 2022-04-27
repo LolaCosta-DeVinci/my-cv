@@ -1,37 +1,38 @@
 
 body {
-    background-color: rgba(235, 220, 199, 1);
-    color: #805741;
+    color: #151e25;
 }
 
 #wrap {
     text-align: center;
 }
 
+#introWrapper {
+    background-image: url("../images/conor-sexton-hRemch0ZDwI-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
+    background-position: center;
+    height: 60vh;
+}
+
 #intro {
-    border-bottom: 1px solid ;
     width: 80vw;
     margin: 0 auto 1.5em;
-    background-color: rgba(235, 220, 199, 0.8);
+}
+#intro_name, #intro_subtitle {
+    color: white;
 }
 
 #intro_name {
     font-size: 60px;
-    margin-top: 1em;
-    margin-bottom: 0.2em;
-    font-family: 'Niconne', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Buenard', serif;
+    padding-top: 2.5em;
 }
 
 #intro_subtitle {
     font-size: 1.3em;
     font-style: italic;
-}
-
-.intro__icon--linkedin {
-    width: 2.5em;
-}
-.intro__icon--twitter {
-    width: 2em;
 }
 
 #socials {
@@ -42,22 +43,32 @@ body {
 .intro__icon {
     margin: 0.8em 1em 0.8em 0;
     transition: 0.3s;
+    width: 2em;
 }
 
 .intro__icon:hover {
     transform: scale(1.5);
 }
 
+
+
+
+
+
 #content {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
 }
 
 #content .section {
-    height: auto;
+    display: flex;
     width: 30%;
+    height: 8em;
     border: 1px solid;
-    border-radius: 3em;
+    border-radius: 1.5em;
+    align-items: center;
 }
 
 .content__title {
@@ -75,7 +86,7 @@ body {
 }
 
 a {
-    color: #805741;
+    color: #151e25;
     transition: font-size 0.5s;
 }
 
