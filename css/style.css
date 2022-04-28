@@ -42,15 +42,16 @@ body {
 
 .intro__icon {
     margin: 0.8em 1em 0.8em 0;
-    transition: 0.3s;
     width: 2em;
 }
 
-.intro__icon:hover {
-    transform: scale(1.5);
+.icon_animation {
+    transition: 0.3s; 
 }
 
-
+.icon_animation:hover {
+    transform: scale(1.5);
+}
 
 
 
